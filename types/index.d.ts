@@ -2,7 +2,7 @@ import { Context, FunctionComponent } from 'react'
 import { Locale as DateFnsLocale } from 'date-fns'
 import { OptionsWithTZ } from 'date-fns-tz'
 
-export type DictionaryFn = (inputs: object) => string
+export type DictionaryFn = (inputs: Record<string, any>) => string
 type DictionaryEntry = string | DictionaryFn | Dictionary
 export interface Dictionary {
   [key: string]: DictionaryEntry

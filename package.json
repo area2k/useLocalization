@@ -1,6 +1,6 @@
 {
-  "name": "@area2k/useLocalization",
-  "version": "0.0.1",
+  "name": "@area2k/use-localization",
+  "version": "0.0.2",
   "description": "A react hook to access localization helper functions",
   "license": "MIT",
   "author": "Andrew Rempe",
@@ -43,5 +43,8 @@
       "react",
       "react-dom"
     ]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
